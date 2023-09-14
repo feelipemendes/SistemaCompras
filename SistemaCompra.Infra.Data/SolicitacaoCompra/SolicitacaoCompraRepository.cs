@@ -13,7 +13,7 @@ namespace SistemaCompra.Infra.Data.SolicitacaoCompra
 
         public void RegistrarCompra(SolicitacaoAgg.SolicitacaoCompra solicitacaoCompra)
         {
-            throw new System.NotImplementedException();
+            context.Set<SolicitacaoAgg.SolicitacaoCompra>().Add(solicitacaoCompra);
         }
     }
 }
